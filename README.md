@@ -45,12 +45,7 @@ a headline number should be read.
 
 ## Repository layout
 
-- `drugnet.pdf` — the technical thesis / preprint
-- `drugnet.tex`, `references.bib`, `figures/` — LaTeX source; build with `latexmk -pdf drugnet.tex`
-- `supplementary/verify_parameter_counts.py` — recomputes every reported model size analytically
-  (standard library only)
-- `supplementary/aess_reference.py` — a corrected, runnable reference implementation of the search
-  algorithm, with a self-test covering its key invariants (requires NumPy)
+- `DrugNet Thesis.pdf` — the technical thesis / preprint
 - `DrugNet_Main_Document.ipynb` — the original implementation notebook
 
 ## Reproducibility
